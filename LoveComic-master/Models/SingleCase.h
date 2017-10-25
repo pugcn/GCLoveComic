@@ -5,7 +5,7 @@
 //  Created by puguichuan on 17/7/27.
 //  Copyright © 2017年 Pugc. All rights reserved.
 //
-/*=======单例宏======*/
+/*=======网络请求单例宏======*/
 
 
 #ifndef SingleCase_h

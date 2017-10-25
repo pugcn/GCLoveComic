@@ -518,7 +518,6 @@
 				C7A5DDD71F4496CB00248606 /* Resources */,
 				C7EF2CFD1F29CA1A00759BEB /* Categorys */,
 				C7FB9B711F261E04008C294A /* Venders */,
-				C79DA6191F26073E00F76CB8 /* Images */,
 				C79DA61D1F26077900F76CB8 /* MVC */,
 				C79DA6181F26068200F76CB8 /* Configers */,
 				C79DA5E21F26060000F76CB8 /* Supporting Files */,
@@ -563,13 +562,6 @@
 				C79DA5F61F26060000F76CB8 /* Info.plist */,
 			);
 			name = Configers;
-			sourceTree = "<group>";
-		};
-		C79DA6191F26073E00F76CB8 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		C79DA61A1F26075600F76CB8 /* Controllers */ = {
