@@ -72,8 +72,6 @@
     // Do any additional setup after loading the view.
     self.collectionView.delegate=self;
     self.collectionView.dataSource=self;
-    
-    self.automaticallyAdjustsScrollViewInsets = NO;
     isO=YES;
     //隐藏collectionView滚动条
     self.collectionView.showsVerticalScrollIndicator=NO;
@@ -129,6 +127,7 @@
     [weakSelf.dataArray removeAllObjects];
     [weakSelf.chapterArray removeAllObjects];
     [weakSelf.chapterListArray removeAllObjects];
+    
     NSString *url=[NSString stringWithFormat:ComicDescURL,self.comic_id];
     [[DownLoadManager sharedDownLoadManager]GET:url parameters:nil success:^(id  _Nonnull responseObject) {
         ComicDescModel *cModel=[ComicDescModel yy_modelWithJSON:responseObject];
